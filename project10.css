@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  .Healthyfood {
+    display: flex;
+    flex-direction: row;
+    border: 2px solid gray;
+    height: auto;
+    justify-content: space-between;
+    background-color: rgb(35, 163, 226);
+    color: white;
+    align-items: center;
+  
+    position: sticky;
+    top: 0;
+    left: 0;
+    right: 0;
+  }
+  .foodhead {
+    display: flex;
+    height: auto;
+    width: 40%;
+    justify-content: flex-start;
+    margin: 20px 20px;
+  }
+  .food_content {
+    display: flex;
+    height: auto;
+    width: 40%;
+    justify-content: flex-end;
+  
+    font-size: 24px;
+  }
+  .food_content a {
+    text-decoration: none;
+    font-size: 34px;
+    margin: 20px 40px;
+    color: white;
+  }
+  /*home all data*/
+.home{
+    display: flex;
+    width: 100vw;
+    justify-content: space-around;
+    background-color: rgb(5, 21, 126);
+    align-items: center;
+    height: 90vh;
+    color: white;
+}
+.homeimg img{
+    border-radius: 48px;
+    height: auto;
+    width:800px;
+}.homecontent{
+    width: 30%;
+    font-size: 96px;
+}
+.project{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  background-color: rgba(6, 2, 53, 0.877);
+  height: auto;
+}
+.projectdibbamain{
+  background-color:rgba(6, 2, 53, 0.877) ;
+  height: auto;
+    width: 100vw;
+}
+
+.projectcontent h1{
+  font-size: 48px;
+  margin: 30px;
+  text-align: center;
+  
+  margin: 20px;
+  display: block;
+  color: white;
+}
+.projectdibba{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 20px 0px;
+  align-items: center;
+}
+.projectdibbaimg img{
+  width: 400px;
+  height: auto;
+  margin: 20px;
+}

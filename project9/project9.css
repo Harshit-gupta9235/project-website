@@ -1,0 +1,165 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.Healthyfood {
+  display: flex;
+  flex-direction: row;
+  border: 2px solid gray;
+  height: auto;
+  justify-content: space-between;
+  background-color: white;
+  align-items: center;
+
+  position: sticky;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+.foodhead {
+  display: flex;
+  height: auto;
+  width: 40%;
+  justify-content: flex-start;
+  margin: 20px 20px;
+}
+.food_content {
+  display: flex;
+  height: auto;
+  width: 40%;
+  justify-content: flex-end;
+
+  font-size: 24px;
+}
+.food_content a {
+  text-decoration: none;
+  font-size: 34px;
+  margin: 20px 40px;
+  color: black;
+}
+/*home1 all data*/
+.home1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 30px;
+}
+.home1content {
+  width: 40%;
+}
+.home1content h1 {
+  font-size: 96px;
+}
+.home1content p {
+  font-size: 40px;
+}
+.home1img {
+  width: 40%;
+}
+.home1img img {
+  height: 400px;
+  width: 400px;
+  border-radius: 20px;
+}
+/*home2 all data*/
+
+.home2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.home2content {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.home2content h1 {
+  font-size: 34px;
+  margin: 10px;
+}
+.home2content p {
+  font-size: 24px;
+  margin: 10px;
+}
+.home2img {
+  width: 30%;
+}
+.home2img img {
+  height: 300px;
+  margin: 15px;
+  border-radius: 10px;
+}
+.home2contentcontent {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 15px;
+}
+.home2contentcontent a {
+  text-decoration: none;
+  color: black;
+  font-weight: 700;
+  margin: 20px;
+  font-size: 25px;
+}
+
+/*home3 all data*/
+
+.home3 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+  height: auto;
+  margin: 10% 20px;
+  
+}
+.home31{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+  width: 23%;
+  border: 2px rgb(49, 42, 42);
+}
+.home31 h1{
+    margin:20px;
+    text-align: center;
+}
+.home31 img{
+    width:200px;
+   height:200px;
+}
+/* blog all data*/
+.blog{
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+}
+.blogimg{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.blogimg img{
+    width: 60%;
+    height: 80vh;
+}
+.blogcontent h1{
+    text-align: center;
+    margin: 30px;
+    font-size: 50px;
+}
+.blogcontent{
+    border: 4px solid black;
+    margin: 30px;
+}
+.blogcontent p{
+    margin: 30px;
+    font-size: 30px;
+}
